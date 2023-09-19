@@ -9,9 +9,9 @@
 #include <stdio.h>
 int main()
 {
-    int x, y;
-    printf("Enter the value of x : ");
-    scanf("%d", &x);
+    float x, y;
+    printf("Enter the value of x: ");
+    scanf("%f", &x);
     if (x > 0)
     {
         y = 1;
@@ -24,9 +24,10 @@ int main()
     {
         y = -1;
     }
-    printf("The value of y is : %d", y);
+    printf("The value of y is: %f", y);
     return 0;
 }
+
 
 // Ans : (b) Conditional operator ?:
 #include <stdio.h>
