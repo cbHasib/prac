@@ -15,14 +15,14 @@ main()
     {
         printf("_");
     }
-    printf("\nAge Group	No of Women		No of Births		ASFR\n");
+    printf("\nAge Group\t\tNo of Women\t\tNo of Births\t\tASFR\n");
     for (i = 1; i <= 70; i++)
     {
         printf("_");
     }
     for (i = 0; i < 7; i++)
     {
-        printf("\n%d-%d		%f		%f		%f\n", (i + 3) * 5, (i + 3) * 5 + 4, W[i], B[i], ASFR[i]);
+        printf("\n%d-%d\t\t%.2f\t\t%.2f\t\t%.2f\n", (i + 3) * 5, (i + 3) * 5 + 4, W[i], B[i], ASFR[i]);
     }
     for (i = 1; i <= 70; i++)
     {
