@@ -5,13 +5,13 @@
 // (a) nested if statements
 // (b) Conditional operator ?:
 
+// Ans : (a) nested if statements
 #include <stdio.h>
-#include <math.h>
 int main()
 {
-    float x, y;
-    printf("Enter the value of x: ");
-    scanf("%f", &x);
+    int x, y;
+    printf("Enter the value of x : ");
+    scanf("%d", &x);
     if (x > 0)
     {
         y = 1;
@@ -24,6 +24,18 @@ int main()
     {
         y = -1;
     }
-    printf("The value of y is: %f", y);
+    printf("The value of y is : %d", y);
+    return 0;
+}
+
+// Ans : (b) Conditional operator ?:
+#include <stdio.h>
+int main()
+{
+    int x, y;
+    printf("Enter the value of x : ");
+    scanf("%d", &x);
+    y = (x > 0) ? 1 : (x == 0) ? 0 : -1;
+    printf("The value of y is : %d", y);
     return 0;
 }
