@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "AVRG_MRK_IRIN.C": "cpp"
+        "AVRG_MRK_IRIN.C": "cpp",
+        "GRAD_IRIN.C": "cpp",
+        "MATRIX_IRIN.C": "cpp"
     }
 }
