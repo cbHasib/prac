@@ -1,0 +1,5 @@
+age<-c(15,22,28,21,32,44,56,67)
+bmi<-c(18.2,25.6,19.2,31.4,23.4,20.2,29.3,18.2)
+df<-data.frame(age,bmi)
+head(df)
+cor(df$age,df$bmi)
